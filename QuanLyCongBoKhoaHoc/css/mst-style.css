@@ -793,9 +793,30 @@
 }
 .modal-content .wrap-xn .xn-right{
     text-align:left;
-    padding-right:20%;
+    padding-right: 10%!important;
+    padding-left: 20%;
+}
+.modal-content .modal-body .table td{
+    border: 5px solid white;
+}
+.modal-content .modal-body .table .table-left{
+    text-align:left;
+    font-weight: bold;
+    padding: 10px 0px !important;
+    padding-left: 20%!important;
+     color: #31708f;
+    background-color: #d9edf7;
+}
+.modal-content .modal-body .table .table-right{
+   
+    padding-left: 10%!important;
+    padding-right: 10%;
+    text-align: left;
+    color: #3c763d;
+    background-color: #dff0d8;
 }
 /*end modal*/
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes right {
     0% {
