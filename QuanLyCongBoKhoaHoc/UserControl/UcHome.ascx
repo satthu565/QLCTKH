@@ -80,39 +80,45 @@
                                       </div>
                                       <div class="modal-body">
                                           <table class="table table-responsive table-condensed">
-                                              <tr>Thông Tin Chung</tr>
                                               <tr>
-                                                  <td>Họ và tên:</td>
-                                                  <td>Giang vien 1</td>
+                                                  <td class="table-left">Họ và tên:</td>
+                                                  <td class="table-right">Giang vien 1</td>
                                               </tr>
                                               <tr>
-                                                  <td>Giới tính:</td>
-                                                  <td>nam</td>
+                                                  <td class="table-left">Giới tính:</td>
+                                                  <td class="table-right">nam</td>
                                               </tr>
                                               <tr>
-                                                  <td>Năm sinh:</td>
-                                                  <td>12/12/1983</td>
+                                                  <td class="table-left">Năm sinh:</td>
+                                                  <td class="table-right">12/12/1983</td>
                                               </tr>
                                               <tr>
-                                                  <td>Quê quán:</td>
-                                                  <td>sơn la</td>
-                                              </tr>
-                                              <tr>Công Trình Khoa Học</tr>
-                                              <tr>
-                                                  <td>Họ và tên:</td>
-                                                  <td>Giang vien 1</td>
+                                                  <td class="table-left">Quê quán:</td>
+                                                  <td class="table-right">sơn la</td>
                                               </tr>
                                               <tr>
-                                                  <td>Giới tính:</td>
-                                                  <td>nam</td>
+                                                  <td class="table-left">Đơn vị công tác:</td>
+                                                  <td class="table-right">Công nghệ thông tin</td>
                                               </tr>
                                               <tr>
-                                                  <td>Năm sinh:</td>
-                                                  <td>12/12/1983</td>
+                                                  <td class="table-left">Chức vụ:</td>
+                                                  <td class="table-right">Phó phòng</td>
                                               </tr>
                                               <tr>
-                                                  <td>Quê quán:</td>
-                                                  <td>sơn la</td>
+                                                  <td class="table-left">Dạy CN:</td>
+                                                  <td class="table-right">Tin học</td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="table-left">Lĩnh vực nghiên cứu:</td>
+                                                  <td class="table-right">Toán tin</td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="table-left">Điện thoại</td>
+                                                  <td class="table-right">121242342</td>
+                                              </tr>
+                                              <tr>
+                                                  <td class="table-left">Email</td>
+                                                  <td class="table-right">gv1.@gmail.com</td>
                                               </tr>
                                           </table>
                                       </div>
