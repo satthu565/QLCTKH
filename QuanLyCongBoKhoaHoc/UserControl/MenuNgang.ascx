@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" style="background-color:#382A7F;text-transform: uppercase;font-size: 12px;" rel="nofollow" href="/">Trang chủ</a>
+            <a class="navbar-brand" style="background-color:#382A7F;text-transform: uppercase;font-size: 12px;margin-left:3px!important" rel="nofollow" href="/">Trang chủ</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->

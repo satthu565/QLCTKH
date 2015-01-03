@@ -7,13 +7,13 @@
 <div class="cssTimKiem">
     <div class="container-fluid">
         <div class="row ">
-            <div class="col-lg-12" style="text-align: center;color:white">
+            <div class="col-lg-12" style="text-align: center">
                 <h3>Tìm kiếm cán bộ giảng viên </h3>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-md-push-1 col-md-offset-2">    <%--col-md-push-1 col-md-offset-1--%>
-                <label class="control-label" for="inputEmail" style="color:white">Tên giảng viên </label>
+                <label class="control-label" for="inputEmail" style="">Tên giảng viên </label>
             </div>
             <div class="col-lg-4 col-md-6"> 
                 <asp:TextBox id="txtTenGiangVien" runat="server" placeholder="Tên giáo viên" CssClass="form-control" />
@@ -21,7 +21,7 @@
         </div>
         <div class="row">
             <div class="col-lg-3 col-md-push-1 col-md-offset-2">
-                <label class="control-label" for="inputEmail" style="color:white">Khoa : </label>
+                <label class="control-label" for="inputEmail" style="">Khoa : </label>
             </div>
             <div class="col-lg-4" >
                 <asp:DropDownList ID="cbbKhoa" runat="server" CssClass="btn btn-default dropdown-toggle mst-width100" >
@@ -123,8 +123,7 @@
                                           </table>
                                       </div>
                                       <div class="modal-footer">
-                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
                                       </div>
                                     </div>
                                   </div>
