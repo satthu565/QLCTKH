@@ -6,10 +6,10 @@
             <span class="pull-right glyphicon glyphicon-resize-vertical"></span>
         </h3>
     </div>
-    <div class="panel-body">
-        <asp:DetailsView ID="DVLyLichGiangVien" runat="server" Height="50px" Width="770px" AutoGenerateRows="False" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Vertical">
-            <AlternatingRowStyle BackColor="#DCDCDC" />
-            <EditRowStyle BackColor="#008A8C" Font-Bold="True" ForeColor="White" />
+    <div class="panel-body" style="padding-bottom:0px">
+        <asp:DetailsView ID="DVLyLichGiangVien" runat="server" Height="50px" Width="770px" AutoGenerateRows="False" BorderStyle="double" BorderWidth="1px" CellPadding="3" GridLines="Vertical" CssClass="table table-responsive table-condensed table-ttc">
+            <AlternatingRowStyle  />
+            <EditRowStyle  Font-Bold="True"  />
             <Fields>
                 <asp:BoundField DataField="TenGiangVien" HeaderText="Họ và tên:" />
                 <asp:TemplateField HeaderText="Giới tính">
@@ -38,10 +38,10 @@
                     </ItemTemplate>
                 </asp:TemplateField>
             </Fields>
-            <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
-            <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
-            <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
-            <RowStyle BackColor="#EEEEEE" ForeColor="Black" />
+            <FooterStyle />
+            <HeaderStyle  />
+            <PagerStyle  HorizontalAlign="Center" />
+            <RowStyle />
         </asp:DetailsView>
     </div>
 </div>      

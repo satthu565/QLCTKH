@@ -833,6 +833,15 @@
 }
 /*end modal*/
 
+/*table thông tin chi tiết*/
+.table-ttc tr{
+    /*text-align:le;*/
+}
+.table-ttc tr td{
+    padding:7px !important;
+}
+/*legend Thông tin chi tiết*/
+
 /* Chrome, Safari, Opera */
 @-webkit-keyframes right {
     0% {

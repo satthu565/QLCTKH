@@ -10,8 +10,8 @@
 <head runat="server">
     <title></title>
     <link href="css/mst-style.css" rel="stylesheet" />
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <style type="text/css">
         .CV-AnhDaiDien {
             text-align:center;
@@ -19,18 +19,18 @@
     </style>
 </head>
 
-<body>
+<body style="background-color: rgb(233, 233, 233);">
     <form id="form1" runat="server">
-    <div class="container">
+    <div class="container" style="box-shadow: 0 0 5px #9d9d9d;z-index: 9;background-color: white;">
         <div class="row">
             <uc1:Banner runat="server" ID="Banner" />
             <uc1:MenuNgang runat="server" ID="MenuNgang" />
        </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3" style="border-right:2px solid #0094ff">
+            <div class="col-md-3" style="background-color:#F2F2F2;box-shadow: 10px 10px 6px -8px #777">
                 <div class="row">
-                    <div class="CV-AnhDaiDien">
+                    <div class="CV-AnhDaiDien" style="padding-top:20px">
                         <asp:Image ImageUrl="" runat="server" id="AnhDaiDien"  alt="Ảnh đại diện" width="150px" height="170px" />
                      </div>
                 </div>
@@ -103,7 +103,7 @@
     <link href="/css/style.css" rel="stylesheet" />
 
 <%--     css menu ngang--%>
-    <link href="css/style1.css" rel="stylesheet" />
+    <link href="../../css/style1.css" rel="stylesheet" />
 
    <%-- js tin moi slide doc--%>
     <script src="/js/jquery-latest.js"></script>
