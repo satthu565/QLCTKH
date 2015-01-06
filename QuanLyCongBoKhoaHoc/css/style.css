@@ -220,7 +220,10 @@
     /*transition:background 0.5s ease-in-out;*/
 }
 
-
+.right .media{
+    padding-bottom:10px;
+    border-bottom: 1px solid #eee;
+}
 .media-body h2 {
     font-size: 14px;
 }
@@ -312,8 +315,8 @@ h1 {
     background-color:#4A72B8;
 }
 .btn-timkiem:hover{
-    background-color:white;
-    color:#4A72B8;
+    background-color:#2D4B80;
+    /*color:#4A72B8;*/
     border:2px solid #fff;
 }
 

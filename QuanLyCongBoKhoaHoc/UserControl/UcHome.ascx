@@ -4,6 +4,7 @@
 <link href="../css/font-awesome.css" rel="stylesheet" />
 <script src="../js/jquery-1.8.3.min.js"></script>
 <script src="../js/MST-js.js"></script>
+
 <div class="cssTimKiem">
     <div class="container-fluid">
         <div class="row ">
@@ -141,9 +142,8 @@
             <asp:Repeater ID="rptPages" runat="server"
                 OnItemCommand="rptPages_ItemCommand1">
                 <ItemTemplate>
-                    <asp:LinkButton ID="btnPage" class="pagdingpage pagination"
-                        Style="padding: 1px 3px; margin: 1px; background: #ccc; border: solid 1px #666;
-                        font: 8pt tahoma;"
+                    <asp:LinkButton ID="btnPage" class="pagination"
+                        Style="position: relative;padding: 6px 12px;margin-left: -1px;line-height: 1.42857143;color: #337ab7;text-decoration: none;background-color: #fff;border: 1px solid #ddd;"
                         CommandName="Page" CommandArgument="<%# Container.DataItem %>"
                         runat="server"><%# Container.DataItem %></asp:LinkButton>
                 </ItemTemplate>
