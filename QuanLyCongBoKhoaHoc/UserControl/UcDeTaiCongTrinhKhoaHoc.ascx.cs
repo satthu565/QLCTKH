@@ -58,28 +58,28 @@ namespace QuanLyCongBoKhoaHoc.UserControl
                 // cấp trường
                 if (row["TenCapDeTai"].ToString() == "Cấp trường")
                {
-                   CapTruong += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", Tên chủ nhiêm ngoài: " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + " <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
+                   CapTruong += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", <b>Tên chủ nhiêm ngoài:</b> " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + " <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
                }
 
                 if (row["TenCapDeTai"].ToString() == "Cấp bộ")
                 {
-                    CapBo += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", Tên chủ nhiêm ngoài: " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + "  <b> Năm: </b> " + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
+                    CapBo += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", <b>Tên chủ nhiêm ngoài:</b> " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + "  <b> Năm: </b> " + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
                 }
                 if (row["TenCapDeTai"].ToString() == "Cấp cơ sở")
                 {
-                    CapCoSo += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", Tên chủ nhiêm ngoài: " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + " <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
+                    CapCoSo += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", <b>Tên chủ nhiêm ngoài:</b> " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + " <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
                 }
                 if (row["TenCapDeTai"].ToString() == "Cấp thành phố")
                 {
-                    CapThanhPho += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", Tên chủ nhiêm ngoài: " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + " <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
+                    CapThanhPho += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", <b>Tên chủ nhiêm ngoài:</b> " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + " <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
                 }
                 if (row["TenCapDeTai"].ToString() == "Cấp nhà nước")
                 {
-                    CapNhaNuoc += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", Tên chủ nhiêm ngoài: " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + "  <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
+                    CapNhaNuoc += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + " </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", <b>Tên chủ nhiêm ngoài:</b> " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + "  <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
                 }
                 if (row["TenCapDeTai"].ToString() == "Cấp quốc gia")
                 {
-                    CapQuocGia += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + "  </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", Tên chủ nhiêm ngoài: " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + " <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
+                    CapQuocGia += " <a href=\"/CV-Giang-Vien/YKienTraoDoi/CongBo/" + row["MaCongTrinhKhoaHoc"] + "\">  <b>" + row["TenCongTrinh"] + "  </b> </a> .<b> Chủ nhiệm: </b>" + TenChuNhiem + ", <b>Tên chủ nhiêm ngoài:</b> " + row["TenChuNhiemNgoai"] + ".<b> Thành viên: </b>" + TenThanhVien + "" + row["TenThanhVienNgoai"] + " <b>  Số: </b>" + row["MaSo"] + " <b> Năm: </b>" + String.Format("{0:dd/MM/yyyy}", row["NamCongBo"]) + ". <br/>";
                 }
 
             }

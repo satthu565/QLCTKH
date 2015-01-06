@@ -1,8 +1,8 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="TinMoi.ascx.cs" Inherits="QuanLyCongBoKhoaHoc.UserControl.TinMoi" %>
 
 
-<div class="panel panel-primary" style="border-color:#382A7F">
-    <div class="panel-heading" style="background-color:#382A7F;border-color:#382A7F">
+<div class="panel panel-primary" style="border-color:#4A72B8">
+    <div class="panel-heading" style="background-color:#4A72B8;border-color:#4A72B8">
         <h3 class="panel-title">Tin mới</h3>
     </div>
      <div class="panel-body" style="height:260px" >

@@ -183,7 +183,7 @@
 }
 
 .div-footer {
-    background-color: #382A7F;
+    background-color: #4A72B8;
     margin: 0 -15px;
     /*opacity: .85;*/
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
@@ -245,7 +245,7 @@ h1 {
 /*thẻ a trong*/
 .dropdown-menu > li > a:hover {
     background-color:#fff !important;
-    color:#382a7f!important;
+    color:#4A72B8!important;
     /*font-weight: bold;*/
     /*color:#fff!important;*/
     /*background-color:#428BCA!important;*/
@@ -253,7 +253,7 @@ h1 {
 }
 .dropdown-menu > li:hover{
     background-color:#fff !important;
-    color:#382a7f !important;
+    color:#4A72B8 !important;
 }
 
 .navbar-nav > li > a, .navbar-header > a{
@@ -309,11 +309,11 @@ h1 {
 }
 .btn-timkiem{
     border:2px solid;
-    background-color:#382A7f;
+    background-color:#4A72B8;
 }
 .btn-timkiem:hover{
     background-color:white;
-    color:#428BCA;
+    color:#4A72B8;
     border:2px solid #fff;
 }
 

@@ -7,10 +7,11 @@
 <div class="cssTimKiem">
     <div class="container-fluid">
         <div class="row ">
-            <div class="col-lg-12" style="text-align: center">
-                <h3>Tìm kiếm cán bộ giảng viên </h3>
+            <div class="col-lg-12" style="text-align: center;">
+                <h3 style="font-weight:bold;color: #4A72B8;">Tìm Kiếm Cán Bộ Giảng Viên </h3>
             </div>
         </div>
+        <hr style="width:100%;border-top: 1px solid #CFCFCF;margin-top: 0px;"/>
         <div class="row">
             <div class="col-lg-3 col-md-6 col-md-push-1 col-md-offset-2">    <%--col-md-push-1 col-md-offset-1--%>
                 <label class="control-label" for="inputEmail" style="">Tên giảng viên </label>
@@ -30,7 +31,7 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" style="padding-bottom:10px">
             <div class="col-lg-3 col-md-push-1 col-md-offset-2 ">
             </div>
             <div class="col-lg-7">

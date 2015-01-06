@@ -7,7 +7,7 @@
 
 .right-content .categories .active {
   height: 44px;
-  background: #382A7F;
+  background: #4A72B8;
   text-transform: uppercase;
   font-weight: bold;
   border-radius: 0px;
@@ -27,7 +27,7 @@
   font-family: monster;
 }
 .right-content .categories .active:hover{
-    background-color:#382A7F;
+    background-color:#4A72B8;
 }
 
 
@@ -95,7 +95,7 @@
     border-bottom: 1px solid #262A2E!important;
 }
 .right-content .categories .list-group2 .active:hover{
-    background-color:#382A7F!important;
+    background-color:#4A72B8!important;
 }
 
 .right-content .categories .list-group2 .list-group-item {
@@ -110,7 +110,7 @@
 }
 
 .right-content .categories .list-group2 .list-group-item:hover .titleCT {
-  color: #382A7F;
+  color: #4A72B8;
 }
 
 .right-content .AD-right {
@@ -130,7 +130,7 @@
 }
 
 .right-content .best-seller .title .star {
-  background-color: #382A7F;
+  background-color: #4A72B8;
   border-radius: 0px;
   border: 0px;
   color: #fff;
@@ -148,7 +148,7 @@
 
 .right-content .best-seller .tab-content {
   min-height: 425px;
-  background-color: #382A7f;
+  background-color: #4A72B8;
   font-family: "monster";
 }
 
@@ -206,7 +206,7 @@
   float: left;
   width: 42px;
   height: 42px;
-  background-color: #382A7F;
+  background-color: #4A72B8;
   border-radius: 0px;
   color: #fff;
   padding-top: 13px;
@@ -467,7 +467,7 @@
 .khung .Line {
   width: 0px;
   height: 2px;
-  background: #382A7F;
+  background: #4A72B8;
   margin-top: 3px;
 }
 .khung:hover .Line {
@@ -500,8 +500,8 @@
   transition: all 0.3s;
 }
 .button-detail a:hover{
-    background-color:#382A7F;
-    border-color:#382A7F;
+    background-color:#4A72B8;
+    border-color:#4A72B8;
     color:#fff;
 }
 .box-left{
@@ -509,7 +509,7 @@
   position: absolute;
   border: 1px solid #CEC7C7;
   border-top:none;
-  color: #382A7F;
+  color: #4A72B8;
 }
 .box-right{
     width:40px;
@@ -518,7 +518,7 @@
   position: absolute;
   border: 1px solid #CEC7C7;
   border-top:none;
-  color: #382A7F;
+  color: #4A72B8;
 }
 .box-left i,.box-right i{
     padding:11px;   
@@ -556,7 +556,7 @@
 	display: block;
 	float: right;
 	margin-left: 0px;
-	border-left: 1px dotted #e5e5e5;
+	/*border-left: 1px dotted #e5e5e5;*/
 }
 
 .very-top-menu li:last-child {
@@ -654,7 +654,8 @@
 .fixed-menu {
     position:fixed !important;
     top: 0px;
-    width: 23em !important;
+    /*max-width:23em;*/
+    width: 21em !important;
     z-index:99999;
     opacity:0.4 ;
     text-align:center;
@@ -665,7 +666,7 @@
 /*breaking*/
 .line-horizontal{
     height: 4px;
-    background-color: #382A7F;
+    background-color: #4A72B8;
     width: 100%;
 }
 .breaking-news{
@@ -725,7 +726,7 @@
 }
 .breaking-title{
     display: block;
-    background-color: #382A7F;
+    background-color: #4A72B8;
     float: left;
     color: #fff;
     font-size: 13px;
@@ -771,7 +772,7 @@
 }
 .breaking-controls{
     display: block;
-    background-color: #382A7F;
+    background-color: #4A72B8;
     float: right;
     color: #fff;
     font-size: 13px;
@@ -786,6 +787,9 @@
 /*end breaking*/
 
 /*modal*/
+.modal-content .modal-title{
+    text-transform:uppercase;
+}
 .modal-content .modal-header{
     padding-bottom: 0px!important;  
     border-bottom:none!important;

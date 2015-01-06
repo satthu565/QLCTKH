@@ -7,7 +7,7 @@
         </h3>
     </div>
     <div class="panel-body" style="padding-bottom:0px">
-        <asp:DetailsView ID="DVLyLichGiangVien" runat="server" Height="50px" Width="770px" AutoGenerateRows="False" BorderStyle="double" BorderWidth="1px" CellPadding="3" GridLines="Vertical" CssClass="table table-responsive table-condensed table-ttc">
+        <asp:DetailsView ID="DVLyLichGiangVien" runat="server"  AutoGenerateRows="False" BorderStyle="double" BorderWidth="1px" CellPadding="3" GridLines="Vertical" CssClass="table table-responsive table-condensed table-ttc">
             <AlternatingRowStyle  />
             <EditRowStyle  Font-Bold="True"  />
             <Fields>

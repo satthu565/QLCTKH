@@ -29,9 +29,9 @@ namespace QuanLyCongBoKhoaHoc.UserControl
             {
                 if (MenuCha == 0 && BMenu.SelectByMenuCha(int.Parse(table.Rows[i]["MaMenu"].ToString())).Rows.Count > 0)
                     // Response.Write("<li class='dropdown'><a rel='nofollow' class='dropdown-toggle'  href='/" + Router.NonUnicode(table.Rows[i]["TenMenu"].ToString()) + "-" + table.Rows[i]["KieuHienThi"].ToString() + "'>" + table.Rows[i]["TenMenu"].ToString() + " <b class='caret'></b></a>");
-                    Response.Write("<li class='dropdown'><a style=\" font-size:12px;text-transform:uppercase;color:#fff;padding: 13px !important;height:45px;background-color: #382A7F \" rel='nofollow' class='dropdown-toggle'  href='#'>" + table.Rows[i]["TenMenu"].ToString() + " <b class='caret'></b></a>");
+                    Response.Write("<li class='dropdown'><a style=\" font-size:12px;text-transform:uppercase;color:#fff;padding: 13px !important;height:45px;background-color: #4A72B8 \" rel='nofollow' class='dropdown-toggle'  href='#'>" + table.Rows[i]["TenMenu"].ToString() + " <b class='caret'></b></a>");
                 else
-                    Response.Write("<li><a style=\" font-size:12px;  color:#fff ;background-color: #382A7F;height:45px;text-transform:uppercase \" rel='nofollow' href='/" + table.Rows[i]["KieuHienThi"] + "/" + table.Rows[i]["DoiTuong"] + "'>" + table.Rows[i]["TenMenu"].ToString() + "</a>");
+                    Response.Write("<li><a style=\" font-size:12px;  color:#fff ;background-color: #4A72B8;height:45px;text-transform:uppercase \" rel='nofollow' href='/" + table.Rows[i]["KieuHienThi"] + "/" + table.Rows[i]["DoiTuong"] + "'>" + table.Rows[i]["TenMenu"].ToString() + "</a>");
                 MenuDong(int.Parse(table.Rows[i]["MaMenu"].ToString()));
             }
 
