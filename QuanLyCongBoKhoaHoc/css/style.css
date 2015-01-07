@@ -369,10 +369,22 @@ h1 {
 
 		.dv_paging a
 		{
-			font-size:14px;
-			font-weight:500;
-			color:#000;
-			display:block;
+			position: relative;
+            padding: 6px 12px;
+            margin-left: -1px;
+            line-height: 1.42857143;
+            color: #337ab7;
+            text-decoration: none;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius:4px;
 		}
+        .dv_paging a:hover{
+            background-color:#337ab7!important;
+            color:#fff!important;
+        }
+        .dv_paging a:active{
+            background-color:black!important;
+        }
 
 

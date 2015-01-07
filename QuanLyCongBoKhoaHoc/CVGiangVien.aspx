@@ -3,6 +3,8 @@
 <%@ Register Src="~/UserControl/Banner.ascx" TagPrefix="uc1" TagName="Banner" %>
 <%@ Register Src="~/UserControl/MenuNgang.ascx" TagPrefix="uc1" TagName="MenuNgang" %>
 <%@ Register Src="~/UserControl/Footer.ascx" TagPrefix="uc1" TagName="Footer" %>
+<%@ Register Src="~/UserControl/MenuDoc.ascx" TagPrefix="uc1" TagName="MenuDoc" %>
+
 
 
 <!DOCTYPE html>
@@ -81,7 +83,7 @@
                <div class="row">
                      <span class="glyphicon glyphicon-hand-right"> <a href="/CV-Giang-Vien/HC"> Hiệu chỉnh</a> </span>
                </div>
-
+                
             </div>
             
             <div class="col-md-9">
